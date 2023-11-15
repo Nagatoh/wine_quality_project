@@ -13,7 +13,7 @@ load-plugins=
 
 [MESSAGES CONTROL]
 #enable=
-disable=W0621, C0103, E0401, C0114
+disable=W0621, C0103, E0401, C0114,C0115
 
 [REPORTS]
 
@@ -51,7 +51,7 @@ notes=FIXME,XXX,TODO
 [FORMAT]
 
 # Maximum number of characters on a single line.
-max-line-length=100
+max-line-length=130
 
 # Maximum number of lines in a module
 max-module-lines=1000
