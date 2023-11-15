@@ -1,4 +1,4 @@
-from mlProject.constants import *
+from mlProject.constants import CONFIG_FILE_PATH,PARAMS_FILE_PATH,SCHEMA_FILE_PATH
 from mlProject.utils.common import read_yaml, create_directories
 from mlProject.entity.config_entity import DataIngestionConfig
 
