@@ -1,3 +1,3 @@
-from ml_project import logger
+from mlProject import logger
 
 logger.info("Welcome to our custom Project")
