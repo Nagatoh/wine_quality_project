@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "wine-quality-project"
+version = "0.1.0"
+description = ""
+authors = ["Humberto Nagato <humberto.nagatog@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pylint.'FORMAT']
+max-line-length=108
+
+[tool.pylint.'MESSAGES CONTROL']
+disable= [
+    "missing-module-docstring",
+    "missing-function-docstring",
+    "import-outside-toplevel",
+    "too-few-public-methods",
+    "too-many-arguments",
+    "too-many-branches",
+    "too-many-instance-attributes",
+    "unspecified-encoding",
+    "wrong-import-position",
+    "redefined-outer-name",
+    "missing-class-docstring"
+    "logging-fstring-interpolation"
+]
