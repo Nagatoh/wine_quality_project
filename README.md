@@ -1,2 +1,2 @@
-# wine_quality_project
-end2end project deployed in AWS
+# Wine Quality Project
+end2end project deployed in AWS with mlflow
